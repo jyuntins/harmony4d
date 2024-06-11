@@ -168,7 +168,7 @@
   </div>
 </section>
 
-<section class="hero teaser">
+<!-- <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
       <video id="teaser" autoplay muted loop playsinline height="100%">
@@ -182,10 +182,10 @@
       </h2>
     </div>
   </div>
-</section>
+</section> -->
 
 
-<section class="hero is-light is-small">
+<!-- <section class="hero is-light is-small">
   <div class="hero-body">
     <div class="container">
       <div id="results-carousel" class="carousel results-carousel">
@@ -240,7 +240,7 @@
       </div>
     </div>
   </div>
-</section>
+</section> -->
 
 
 <section class="section">
@@ -251,10 +251,27 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            We present the first method capable of photorealistically reconstructing a non-rigidly
-            deforming scene using photos/videos captured casually from mobile phones.
+            Understanding how humans interact with each other is key to building realistic
+            multi-human virtual reality systems. This area remains relatively unexplored
+            due to the lack of large-scale datasets. Recent datasets focusing on this issue
+            mainly consist of activities captured entirely in controlled indoor environments
+            with choreographed actions, significantly affecting their diversity. To address this,
+            we introduce Harmony4D, a multi-view video dataset for human-human interaction
+            featuring in-the-wild activities such as wrestling, dancing, MMA, and more. We
+            use a flexible multi-view capture system to record these dynamic activities and
+            provide annotations for human detection, tracking, 2D/3D pose estimation, and
+            mesh recovery for closely interacting subjects. We propose a novel markerless
+            algorithm to track 3D human poses in severe occlusion and close interaction to
+            obtain our annotations with minimal manual intervention. Harmony4D consists
+            of 1.66 million images and 3.32 million human instances from more than 20
+            synchronized cameras with 208 video sequences spanning diverse environments
+            and 24 unique subjects. We rigorously evaluate existing state-of-the-art methods
+            for mesh recovery and highlight their significant limitations in modeling close
+            interaction scenarios. Additionally, we fine-tune a pre-trained HMR2.0 model on
+            Harmony4D and demonstrate an improved performance of 54.8% PVE in scenes
+            with severe occlusion and contact.
           </p>
-          <p>
+          <!-- <p>
             Our approach augments neural radiance fields
             (NeRF) by optimizing an
             additional continuous volumetric deformation field that warps each observed point into a
@@ -265,8 +282,8 @@
             By adapting principles from geometry processing and physical simulation to NeRF-like
             models, we propose an elastic regularization of the deformation field that further
             improves robustness.
-          </p>
-          <p>
+          </p> -->
+          <!-- <p>
             We show that <span class="dnerf">Nerfies</span> can turn casually captured selfie
             photos/videos into deformable NeRF
             models that allow for photorealistic renderings of the subject from arbitrary
@@ -276,7 +293,7 @@
             images of the same pose at different viewpoints. We show that our method faithfully
             reconstructs non-rigidly deforming scenes and reproduces unseen views with high
             fidelity.
-          </p>
+          </p> -->
         </div>
       </div>
     </div>
