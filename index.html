@@ -374,7 +374,7 @@
 
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Grappling</h2>
+        <h2 class="title is-3">Hugging 3D poses</h2>
         <!-- <div class="publication-video">
           <iframe src="https://www.youtube.com/embed/MrKrnHhk8IA?rel=0&amp;showinfo=0"
                   frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
@@ -406,6 +406,38 @@
               As a byproduct of our method, we can also solve the matting problem by ignoring
               samples that fall outside of a bounding box during rendering.
             </p> -->
+            <video id="matting-video" controls playsinline height="100%">
+              <source src="./static/videos/matting.mp4"
+                      type="video/mp4">
+            </video>
+            <h2 class="title is-5">Multi View</h2>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Hugging human meshes</h2>
+      </div>
+    </div>
+    <div class="columns is-centered">
+      <!-- Visual Effects. -->
+      <div class="column">
+        <div class="content">
+          <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
+            <source src="./static/videos/dollyzoom-stacked.mp4"
+                    type="video/mp4">
+          </video>
+          <h2 class="title is-5">Single View</h2>
+        </div>  
+      </div>
+
+      <div class="column">
+        <div class="columns is-centered">
+          <div class="column content">
+
             <video id="matting-video" controls playsinline height="100%">
               <source src="./static/videos/matting.mp4"
                       type="video/mp4">
@@ -513,43 +545,6 @@
   </div>
 </section>
 
-<section class="section">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Hugging 3D pose</h2>
-      </div>
-    </div>
-    <div class="columns is-centered">
-      <div class="column">
-        <div class="content">
-          <video id="dollyzoom" autoplay controls muted loop playsinline height="100%">
-            <source src="./static/videos/dollyzoom-stacked.mp4"
-                    type="video/mp4">
-          </video>
-          <h2 class="title is-5">Single View</h2>
-        </div>  
-      </div>
-      <div class="column">
-        <div class="columns is-centered">
-          <div class="column content">
-            <video id="matting-video" controls playsinline height="100%">
-              <source src="./static/videos/matting.mp4"
-                      type="video/mp4">
-            </video>
-            <h2 class="title is-5">Multi View</h2>
-          </div>
-
-        </div>
-      </div>
-    </div>
-
-      </div>
-    </div>
-
-
-  </div>
-</section>
 
 <!-- <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
